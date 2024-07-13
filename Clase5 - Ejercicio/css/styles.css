@@ -1,0 +1,98 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.header{
+    
+    position: relative;
+/*    
+    display: inline-block;
+    left: 450px;
+    right: 300px;
+    */
+}
+
+.header__logo{
+    display: auto;
+    margin: 3rem 0;
+}
+
+.footer{
+    background-color: darkcyan ;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.navegacion{
+    background-color: green;
+    padding: 1rem 0;
+}
+
+.navegacion__servicios{
+    padding-left: 300px;
+}
+
+.navegacion__nosotros{
+    padding-left: 300px;
+}
+
+.curso{
+    background-color: darkkhaki;
+    padding: 1rem;
+}
+
+.curso__nombre{
+    font-size: 4rem;
+}
+
+.curso__descripcion{
+    font-size: 2.8rem;
+    color:darkblue;
+}
+
+.curso__nombre, .curso__descripcion{
+    margin:1rem 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/*
+@media (min-width: 768px) {
+    .curso__nombre{
+        font-size: 4rem;
+    }
+
+    .curso__descripcion{
+        font-size: 1.4rem;
+        color: darkblue;
+    }
+
+@media (max-width:500 px ) {
+
+    .navegacion__nosotros{
+        padding-left: 50px;
+    }
+    .navegacion__servicios{
+        padding-left: 50px;
+    }
+*/
+    
+}
